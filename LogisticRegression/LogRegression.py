@@ -80,8 +80,8 @@ class LogisticRegression:
 
 
 if __name__ == "__main__":
-    Xraw = np.loadtxt('/Users/sdey/Documents/cs229/Assignments/q1x.dat')
-    y = np.loadtxt('/Users/sdey/Documents/cs229/Assignments/q1y.dat')
+    Xraw = np.loadtxt('q1x.dat')
+    y = np.loadtxt('q1y.dat')
 
     model = LogisticRegression()
     model.train(y,Xraw,type='NEWTON',num_iteration = 10)
