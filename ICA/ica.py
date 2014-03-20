@@ -10,13 +10,13 @@ import wave
 import struct
 import numpy as np
 
-mix_file = "/Users/sdey/Documents/cs229/Assignments/ps4/q4/mix.dat"
+mix_file = "mix.dat"
 
 mat = np.loadtxt(mix_file)
 
 freq = 440.0
 data_size = 40000
-fname = "/Users/sdey/Documents/cs229/Assignments/ps4/q4/mix1.wav"
+fname = "mix1.wav"
 frate = 11025.0 # framerate as a float
 amp = 64000.0     # multiplier for amplitude
 
