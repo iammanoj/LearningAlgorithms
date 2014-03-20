@@ -79,8 +79,8 @@ class LocallyWeighterRegression:
  
 if __name__ == "__main__":
     
-    X = np.loadtxt('/Users/sdey/Documents/cs229/Assignments/q2x.dat')
-    y = np.loadtxt('/Users/sdey/Documents/cs229/Assignments/q2y.dat')
+    X = np.loadtxt('q2x.dat')
+    y = np.loadtxt('q2y.dat')
     
     lm = LinearRegression()
     lm.train(y,X)
