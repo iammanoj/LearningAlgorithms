@@ -41,8 +41,8 @@ def Kmeans(X,k,iter):
 
 if __name__ == "__main__":
     # Define Image file
-  #image_file='/Users/sdey/Documents/cs229/Assignments/ps3/mandrill-large.tiff'
-    image_file='/Users/sdey/Documents/cs229/Assignments/ps3/mandrill-small.tiff'
+    #image_file='mandrill-large.tiff'
+    image_file='mandrill-small.tiff'
     
     # Read Image Files    
     img = misc.imread(image_file )   
