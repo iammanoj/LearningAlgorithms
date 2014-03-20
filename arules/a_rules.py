@@ -41,7 +41,7 @@ def generate_freq_sets(file,levels, support):
     return freq_items_list
 
 
-file = '/Users/sdey/Documents/cs246/home-work/hw01/browsing.txt'
+file = 'browsing.txt'
 
 freq_items  = generate_freq_sets(file, 3, 100)
 
