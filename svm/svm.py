@@ -201,11 +201,11 @@ show()
 '''
 #########
 
-X_train_file = '/Users/sdey/Documents/cs246/home-work/hw04/HW4-q1/features.train.txt'
-y_train_file = '/Users/sdey/Documents/cs246/home-work/hw04/HW4-q1/target.train.txt'
+X_train_file = 'features.train.txt'
+y_train_file = 'target.train.txt'
 
-X_test_file = '/Users/sdey/Documents/cs246/home-work/hw04/HW4-q1/features.test.txt'
-y_test_file = '/Users/sdey/Documents/cs246/home-work/hw04/HW4-q1/target.test.txt'
+X_test_file = 'features.test.txt'
+y_test_file = 'target.test.txt'
 
 
 X_train = np.array(pd.read_csv(X_train_file,delimiter =',', header=None))
